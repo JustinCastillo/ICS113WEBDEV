@@ -1,0 +1,170 @@
+@CHARSET "ISO-8859-1";
+@CHARSET "ISO-8859-1";
+.menu { 
+    width: 280px; 
+    height: 380px; 
+    -webkit-transform: skew(-20deg); 
+    -moz-transform: skew(-20deg); 
+    transform: skew(-20deg);
+    margin: 20px;
+    border:solid black 1px;
+    position: absolute;
+}
+#donate{
+	background:#df7309;
+	margin-left: 230px;
+	margin-top:340px;
+}
+#bank{
+	background:#5e9ccf;
+	margin-left: 530px;
+	margin-top:340px;
+}
+#signup{
+	background:#c9f1fd;
+	margin-left: 830px;
+	margin-top:340px;
+}
+.infomenu{
+	display:inline;
+	
+}
+a{
+	text-decoration: none;
+}
+#divider{
+	position:absolute;
+	height:20px;
+	width:97%;
+	margin-top:108px;
+	z-index:-1;
+	margin-left:10px;
+}
+#divider1{
+	position:absolute;
+	height:20px;
+	width:97%;
+	margin-top:290px;
+	z-index:-1;
+	margin-left:10px;
+}
+#ab{
+	font-size:18px;
+	color:#5e9ccf;
+	font-family:Verdana;
+	margin-top:80px;
+	margin-left:1110px;
+	position:absolute;
+}
+#ab:hover{
+	color:#df7309;
+}
+#co:hover{
+	color:#df7309;
+}
+#co{
+	font-size:18px;
+	color:#5e9ccf;
+	font-family:Verdana;
+	margin-top:80px;
+	margin-left:1180px;
+	position:absolute;
+}
+h1{font-family:Verdana; color:#5e9ccf}
+h3{font-family:Verdana; color:#5e9ccf}
+.title{
+	position:absolute;
+	display:inline;
+}
+div img{
+	height:110px;
+	width:160px;
+}
+div h3{
+	margin-left:190px;
+	margin-top:80px;
+}
+div h1{
+	margin-left:190px;
+	margin-top:40px;
+}
+#logo{
+	margin-left:20px;
+}
+#intro{
+	width:700px;
+	height:400px;
+	background-color:#ffffff;
+	position:absolute;
+	box-shadow:0 0 10px 5px #b2b2b2 inset;
+	margin-top:150px;
+	margin-left:310px;
+}
+#x:hover{
+	opacity:0;
+}
+.text{
+	position:absolute;
+	margin-top:180px;
+	margin-left:300px;
+	margin-right:300px;
+	font-size:18px;
+	font-family:Verdana;
+}
+#hd{
+	font-size:23px;
+	margin-top:140px;
+}
+#don{
+	width:280px;
+	height:380px;
+	opacity:0;
+}
+#don:hover{opacity:1; box-shadow:0 0 3px black inset;}
+#dontxt{
+	margin-top:150px;
+	margin-left:60px;
+	font-size:35px;
+	position:absolute;
+}
+#but{
+	margin-left:320px;
+	border:solid #df7309 2px;
+	height:30px;
+	width:80px;
+}
+#inputform{
+	margin-top:220px;
+	margin-left:100px;
+	position:absolute;
+	background-color:#fafafa;
+	box-shadow:0 0 10px inset;
+	padding:30px 30px 30px 30px;
+}
+pre{
+	font-family:Verdana;
+	font-size:20px;
+	color:#df7309;
+}
+#login{
+	margin-top:220px;
+	margin-left:700px;
+	position:absolute;
+	background-color:#fafafa;
+	box-shadow:0 0 10px inset;
+	padding:30px 30px 30px 30px;
+}
+#dontxt1{
+	margin-top:150px;
+	margin-left:680px;
+	font-size:35px;
+	position:absolute;
+}
+#ho{
+	font-size:18px;
+	color:#5e9ccf;
+	font-family:Verdana;
+	margin-top:80px;
+	margin-left:1040px;
+	position:absolute;
+}

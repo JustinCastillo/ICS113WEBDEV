@@ -1,0 +1,150 @@
+@CHARSET "ISO-8859-1";
+.infomenu{
+	display:inline;
+}
+a{
+	text-decoration: none;
+}
+#divider{
+	position:absolute;
+	height:20px;
+	width:97%;
+	margin-top:108px;
+	z-index:-1;
+	margin-left:10px;
+}
+#ab{
+	font-size:18px;
+	color:#5e9ccf;
+	font-family:Verdana;
+	margin-top:80px;
+	margin-left:1110px;
+	position:absolute;
+}
+#ab:hover{
+	color:#df7309;
+}
+#co:hover{
+	color:#df7309;
+}
+#co{
+	font-size:18px;
+	color:#5e9ccf;
+	font-family:Verdana;
+	margin-top:80px;
+	margin-left:1180px;
+	position:absolute;
+}
+#ho{
+	font-size:18px;
+	color:#5e9ccf;
+	font-family:Verdana;
+	margin-top:80px;
+	margin-left:1030px;
+	position:absolute;
+}
+h1{font-family:Verdana; color:#5e9ccf}
+h3{font-family:Verdana; color:#5e9ccf}
+.title{
+	position:absolute;
+	display:inline;
+}
+div img{
+	height:110px;
+	width:160px;
+}
+div h3{
+	margin-left:190px;
+	margin-top:80px;
+}
+div h1{
+	margin-left:190px;
+	margin-top:40px;
+}
+#logo{
+	margin-left:20px;
+}
+#x:hover{
+	opacity:0;
+}
+#dontxt{
+	margin-top:150px;
+	margin-left:60px;
+	font-size:35px;
+	position:absolute;
+}
+pre{
+	font-family:Verdana;
+	font-size:20px;
+	color:#df7309;
+}
+#inputform{
+	margin-top:220px;
+	margin-left:100px;
+	position:absolute;
+	background-color:#fafafa;
+	box-shadow:0 0 10px inset;
+	padding:30px 30px 30px 30px;
+}
+#but{
+	margin-left:1200px;
+	border:solid #df7309 2px;
+	height:30px;
+	width:80px;
+	margin-top:440px;
+	position:absolute;
+}
+
+.text{
+	position:relative;
+	font-size:15px;
+	font-family:Verdana;
+	margin:auto;
+	padding:10px;
+}
+table, th, td {
+    border: 2px solid #df7309;
+    border-collapse: collapse;
+}
+table{
+	position:absolute;
+	margin-top:220px;
+	margin-left:90px;
+	margin-bottom:100px;
+}
+.pl{
+	height:80px;
+	width:80px;
+}
+tr td a:hover img{
+	width:100px;
+	height:100px;
+}
+#info{
+	position:absolute;
+	margin-left:700px;
+}
+#info td{
+	font-size:20px;
+	padding:20px 70px 50px 20px;
+}
+#orginf{
+	position: absolute;
+	height:500px;
+	width:460px;
+	margin-left:700px;
+	margin-top:310px;
+}
+
+#hd{
+	margin-top:90px;
+	margin-left:130px;
+}
+#qty{
+	margin-top:400px;
+	margin-left:1080px;
+	position:absolute;
+}
+#qty input{
+	width:100px;
+}
