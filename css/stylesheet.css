@@ -1,4 +1,10 @@
 @CHARSET "ISO-8859-1";
+html{/**/
+	height:110%;
+    background-position: 0% 100%;
+    background-attachment: fixed;
+	background: url("../img/bg.png")no-repeat left bottom;
+}
 .menu { 
     width: 280px; 
     height: 380px; 
@@ -8,25 +14,22 @@
     margin: 20px;
     border:solid black 1px;
     position: absolute;
+	margin-top:300px;
 }
 #donate{
 	background:#df7309;
-	margin-left: 230px;
-	margin-top:340px;
+	margin-left:230px;
 }
 #bank{
 	background:#5e9ccf;
 	margin-left: 530px;
-	margin-top:340px;
 }
 #signup{
 	background:#c9f1fd;
 	margin-left: 830px;
-	margin-top:340px;
 }
 .infomenu{
 	display:inline;
-	
 }
 a{
 	text-decoration: none;
@@ -43,14 +46,14 @@ a{
 	position:absolute;
 	height:20px;
 	width:97%;
-	margin-top:290px;
+	margin-top:260px;
 	z-index:-1;
 	margin-left:10px;
 }
 #ab{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1110px;
 	position:absolute;
@@ -64,13 +67,13 @@ a{
 #co{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1180px;
 	position:absolute;
 }
-h1{font-family:Verdana; color:#5e9ccf}
-h3{font-family:Verdana; color:#5e9ccf}
+h1{font-family:Georgia; color:#5e9ccf}
+h3{font-family:Georgia; color:#5e9ccf}
 .title{
 	position:absolute;
 	display:inline;
@@ -104,24 +107,46 @@ div h1{
 }
 .text{
 	position:absolute;
-	margin-top:180px;
+	margin-top:165px;
 	margin-left:300px;
 	margin-right:300px;
 	font-size:18px;
-	font-family:Verdana;
+	font-family:Georgia;
 }
 #hd{
 	font-size:23px;
-	margin-top:140px;
+	margin-top:130px;
 }
 #don{
 	width:280px;
 	height:380px;
 	opacity:0;
+	-webkit-transition: 1s;
+    transition: 1s;
 }
-#don:hover{opacity:1; box-shadow:0 0 3px black inset;}
+#don:hover{
+	opacity:1; 
+	box-shadow:0 0 3px black inset;
+}
 #dontxt{
 	color:#5e9ccf; 
 	position:relative; 
 	margin:auto;
 }
+.ttext{/**/
+	color:black; 
+	position:relative; 
+	margin:auto;
+	font-family:Verdana;
+}
+#w{
+	font-size:18px;
+	color:#df7309;
+	font-family:Georgia;
+	margin-top:80px;
+	margin-left:965px;
+	position:absolute;
+}
+#mtitle{font-size:31px;}
+#logi{margin-left:14px;}
+#title{margin-top:70px;)

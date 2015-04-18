@@ -1,5 +1,10 @@
 @CHARSET "ISO-8859-1";
-@CHARSET "ISO-8859-1";
+html{/**/
+	height:100%;
+    background-position: 0% 100%;
+    background-attachment: fixed;
+	background: url("../img/bg.png")no-repeat left bottom;
+}
 .menu { 
     width: 280px; 
     height: 380px; 
@@ -51,7 +56,7 @@ a{
 #ab{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1110px;
 	position:absolute;
@@ -65,13 +70,13 @@ a{
 #co{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1180px;
 	position:absolute;
 }
-h1{font-family:Verdana; color:#5e9ccf}
-h3{font-family:Verdana; color:#5e9ccf}
+h1{font-family:Georgia; color:#5e9ccf}
+h3{font-family:Georgia; color:#5e9ccf}
 .title{
 	position:absolute;
 	display:inline;
@@ -163,8 +168,21 @@ pre{
 #ho{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1040px;
 	position:absolute;
 }
+#u pre,#p pre,#c pre,#i pre,#e pre,#iu pre,#ip pre{
+	font-family:Georgia;
+	font-size:10px;
+	display:inline;
+	margin-top:-5px;
+}
+#u img,#p img,#c img,#i img,#e img,#iu img,#ip img{
+	height:14px;
+	width:14px;
+}
+#mtitle{font-size:31px;}
+#logi{margin-left:14px;}
+#title{margin-top:70px;)

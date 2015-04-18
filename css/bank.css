@@ -1,4 +1,10 @@
 @CHARSET "ISO-8859-1";
+html{/**/
+	height:120%;
+    background-position: 0% 100%;
+    background-attachment: fixed;
+	background: url("../img/bg.png")no-repeat left bottom;
+}
 .infomenu{
 	display:inline;
 }
@@ -16,7 +22,7 @@ a{
 #ab{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1110px;
 	position:absolute;
@@ -30,7 +36,7 @@ a{
 #co{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1180px;
 	position:absolute;
@@ -38,13 +44,13 @@ a{
 #ho{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1030px;
 	position:absolute;
 }
-h1{font-family:Verdana; color:#5e9ccf}
-h3{font-family:Verdana; color:#5e9ccf}
+h1{font-family:Georgia; color:#5e9ccf}
+h3{font-family:Georgia; color:#5e9ccf}
 .title{
 	position:absolute;
 	display:inline;
@@ -73,11 +79,6 @@ div h1{
 	font-size:35px;
 	position:absolute;
 }
-pre{
-	font-family:Verdana;
-	font-size:20px;
-	color:#df7309;
-}
 #inputform{
 	margin-top:220px;
 	margin-left:100px;
@@ -87,18 +88,18 @@ pre{
 	padding:30px 30px 30px 30px;
 }
 #but{
-	margin-left:1200px;
+	margin-left:920px;
 	border:solid #df7309 2px;
 	height:30px;
 	width:80px;
-	margin-top:440px;
+	margin-top:600px;
 	position:absolute;
 }
 
 .text{
 	position:relative;
 	font-size:15px;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin:auto;
 	padding:10px;
 }
@@ -110,15 +111,24 @@ table{
 	position:absolute;
 	margin-top:220px;
 	margin-left:90px;
-	margin-bottom:100px;
+}
+#s tr td{
+	padding:40px;
 }
 .pl{
+	margin-top:-40px;
 	height:80px;
 	width:80px;
+	transition:.2s;
+	position:absolute;
 }
 tr td a:hover img{
 	width:100px;
 	height:100px;
+	position:absolute;
+	margin-top:-50px;
+	margin-left:-10px;
+	z-index:2;
 }
 #info{
 	position:absolute;
@@ -126,25 +136,57 @@ tr td a:hover img{
 }
 #info td{
 	font-size:20px;
-	padding:20px 70px 50px 20px;
+	padding: 0px 45px 0px 45px;
+}
+#info #xx td{
+	padding: 30px 45px 20px 45px;
 }
 #orginf{
 	position: absolute;
-	height:500px;
-	width:460px;
+	height:300px;
+	width:600px;
 	margin-left:700px;
-	margin-top:310px;
+	margin-top:235px;
 }
 
 #hd{
 	margin-top:90px;
-	margin-left:130px;
+	margin-left:210px;
 }
 #qty{
-	margin-top:400px;
-	margin-left:1080px;
+	font-size:18px;
+	margin-top:600px;
+	margin-left:710px;
 	position:absolute;
+	font-size:20px;
+	color:#df7309;
+	font-family:Georgia;
 }
 #qty input{
 	width:100px;
 }
+#inst{
+	margin-top:192px;
+	margin-left:80px;
+	font-size:20px;
+	position:absolute;
+	color:#df7309;
+}
+#q p{
+	font-family:Georgia;
+	font-size:12px;
+	margin-top:-21px;
+	margin-left:18px;
+}
+#q img{
+	height:14px;
+	width:14px;
+}
+#q{
+	position:absolute;
+	margin-top:30px;
+	margin-left:-105px;
+}
+#mtitle{font-size:31px;}
+#logi{margin-left:14px;}
+#title{margin-top:70px;)

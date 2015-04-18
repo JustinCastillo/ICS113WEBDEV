@@ -2,17 +2,16 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="\ICS113WEBDEV\css\signup.css">
-<script>
-</script>
-<link rel="shortcut icon" href="\ICS113WEBDEV\img\favicon.png">
+<link rel="stylesheet" type="text/css" href="..\css\signup.css">
+<script language="javascript" type="text/javascript" src="..\js\signup.js"></script>
+<link rel="shortcut icon" href="..\img\favicon.png">
 <title>HIVE Biobank</title>
 </head>
 <body>
 	<div id="header">
-	<div id="logo" class="title"><a href="index.html"><img src="\ICS113WEBDEV\img\icon.png"/></a></div>
-	<h1 class="title">HIVE RESEARCH INSTITUTE</h1>
-	<h3 class="title">A Tumor Biobank Web Application</h3>
+	<div id="logo" class="title"><a href="index.html"><img src="..\img\Biobank logo.png" id="logi"/></a></div>
+	<h1 id="mtitle" class="title">HIVE RESEARCH INSTITUTE</h1>
+	<h3 id="title" class="title">A Tumor Biobank Web Application</h3>
 	<div id="infomenu">
 		<ul>
 			<li class="infomenu"><a href="index.html" id="ho">Home  |</a></li>
@@ -20,24 +19,24 @@
 			<li class="infomenu"><a href="" id="co">Contact</a></li>
 		</ul>
 	</div>
-	<div><img src="\ICS113WEBDEV\img\divider.png" id="divider"/></div>
+	<div><img src="..\img\divider.png" id="divider"/></div>
 	</div>
 	<h1 id="dontxt">Sign-up:</h1>
 	<div id="inputform">
-		<form>
-			<pre>Username:           <input></pre>
-			<pre>Password:            <input></pre>
-			<pre>Confirm Password:<input></pre>
-			<pre>Institution:           <input></pre>
-			<pre>Email Address:      <input></pre>
-			<input id="but" type="submit" value="Submit">
+		<form name="sign" method="post" onsubmit="return svalidateform()">
+			<pre>Username:           <input name="username"><span id="u"></span></pre>
+			<pre>Password:            <input type="password" name="password"><span id="p"></span></pre>
+			<pre>Confirm Password:<input type="password" name="cpassword"><span id="c"></span></pre>
+			<pre>Institution:           <input name="institution"><span id="i"></span></pre>
+			<pre>Email Address:      <input name="emailadd"><span id="e"></span></pre>
+			<input id="but" type="submit" value="Register">
 		</form>
 	</div>
 	<h1 id="dontxt1">Log-in:</h1>
 	<div id="login">
-	<form>
-		<pre>Username:           <input></pre>
-		<pre>Password:            <input></pre>
+	<form name="log" method="post" onsubmit="return lvalidateform()" action="index.html" >
+		<pre>Username:           <input name="iusername"><span id="iu"></span></pre>
+		<pre>Password:            <input type="password" name="ipassword"><span id="ip"></span></pre>
 		<input id="but" type="submit" value="Submit">
 	</form>
 	</div>

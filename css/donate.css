@@ -1,7 +1,12 @@
 @CHARSET "ISO-8859-1";
+html{/**/
+	height:100%;
+    background-position: 0% 100%;
+    background-attachment: fixed;
+	background: url("../img/bg.png")no-repeat left bottom;
+}
 .infomenu{
 	display:inline;
-	
 }
 a{
 	text-decoration: none;
@@ -17,7 +22,7 @@ a{
 #ab{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1110px;
 	position:absolute;
@@ -31,7 +36,7 @@ a{
 #co{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1180px;
 	position:absolute;
@@ -39,13 +44,13 @@ a{
 #ho{
 	font-size:18px;
 	color:#5e9ccf;
-	font-family:Verdana;
+	font-family:Georgia;
 	margin-top:80px;
 	margin-left:1040px;
 	position:absolute;
 }
-h1{font-family:Verdana; color:#5e9ccf}
-h3{font-family:Verdana; color:#5e9ccf}
+h1{font-family:Georgia; color:#5e9ccf}
+h3{font-family:Georgia; color:#5e9ccf}
 .title{
 	position:absolute;
 	display:inline;
@@ -104,6 +109,7 @@ pre input{
 	box-shadow:0 0 10px inset;
 	margin-left:630px;
 	margin-top:180px;
+	transition: .5s;
 }
 #y{
 	height:400px;
@@ -113,11 +119,28 @@ pre input{
 	margin-top:180px;
 	z-index:-1;
 	box-shadow:0 0 10px inset;
+	-webkit-transition: 1s;
+    transition: 1s;
 }
 .text{
 	position:relative;
-	font-size:18px;
-	font-family:Verdana;
+	font-size:16px;
+	font-family:Georgia;
 	margin:auto;
 	padding:10px;
 }
+#u p,#s p,#dd p,#db p,#cd p{
+	font-family:Georgia;
+	font-size:8px;
+	display:inline;
+	margin-top:-5px;
+}
+#u img,#s img,#db img,#dd img,#cd img{
+	height:14px;
+	width:14px;
+}
+#aa{font-size:20px;}
+#aa{text-align:center;}
+#mtitle{font-size:31px;}
+#logi{margin-left:14px;}
+#title{margin-top:70px;)
